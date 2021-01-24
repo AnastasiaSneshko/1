@@ -63,7 +63,6 @@
     </tr>
   </table>
 
-
   <table class="question">
     <tr>
       <th class="question_header">Name</th>
@@ -110,53 +109,48 @@
     </tr>
   </table>
 
-
-  <div class="container">
-    <p class="cont_head">The World of Fruit</p>
-    <p class="cont_title">Fruit Survey</p>
-    <table class="question">
-      <tr>
-        <th class="left">Name</th>
-        <th class="right"><input type="text"></th>
-      </tr>
-      <tr>
-        <th class="left">Adress</th>
-        <th class="right"><input type="text"></th>
-      </tr>
-      <tr>
-        <th class="left">Email</th>
-        <th class="right"><input type="email"></th>
-      </tr>
-      <tr>
-        <th class="left">How many pieces of fruit do you eat per day?</th>
-        <th class="right">
-          <input type="radio" value="0">0 <br>
-          <input type="radio" value="0">1 <br>
-          <input type="radio" value="0">2 <br>
-          <input type="radio" value="0">More tnan 2
-        </th>
-      </tr>
-      <tr>
-        <th class="left">My favourite fruit</th>
-        <th class="right">
-          <select name="fruit" size="4" multiple>
-            <option value="a">Apple</option>
-            <option value="b">Banana</option>
-            <option value="p">Plum</option>
-            <option value="p">Pomegranate</option>
-          </select>
-        </th>
-      </tr>
-      <tr>
-        <th class="left">Would you like a brochure?</th>
-        <th class="right"><input type="checkbox"></th>
-      </tr>
-      <tr>
-        <th class="left"></th>
-        <th class="right"><button>Submit</button></th>
-      </tr>
-    </table>
+  <div class="quest">
+    <div class="form_head"><p>The World of Fruit</p></div>
+    <div class="form_title"><p>Fruit Survey</p></div>
+    <div class="form">
+      <div class="label">Name</div>
+      <div class="input"><input type="text" name="name"></div>
+    </div>
+    <div class="form">
+      <div class="label">Adress</div>
+      <div class="input"><input type="text" name="adress"></div>
+    </div>
+    <div class="form">
+      <div class="label">Email</div>
+      <div class="input"><input type="email" name="email"></div>
+    </div>
+    <div class="form">
+      <div class="label">How many pieces of friut do you eat per day?</div>
+      <div class="input">
+        <input type="radio" name="0"> 0 <br>
+        <input type="radio" name="0"> 1 <br>
+        <input type="radio" name="0"> 2 <br>
+        <input type="radio" name="0"> More than 2
+      </div>
+    </div>
+    <div class="form">
+      <div class="label">My favourite fruit</div>
+      <div class="input">
+        <select name="fruit" size="4" multiple>
+          <option value="a">Apple</option>
+          <option value="b">Banana</option>
+          <option value="p">Plum</option>
+          <option value="p">Pomegranate</option>
+        </select>
+      </div>
+    </div>
+    <div class="form">
+      <div class="label">Would you like a brochure?</div>
+      <div class="input"><input type="checkbox" name="check"></div>
+    </div>
+    <div class="submit"><button type="submit">Submit</button></div>
   </div>
+  
 
   <a href="#"><img src="media/priroda_gory_nebo_ozero_oblaka_81150_1920x1080.jpg" alt="photo"></a>
   <video src="media/Letters - 5157.mp4" autoplay loop></video>

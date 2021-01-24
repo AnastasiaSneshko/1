@@ -42,41 +42,46 @@ textarea {
   margin: 0 auto;
 }
 
-.container {
-  background-color: rgb(243, 243, 35);
-  width: 30%;
-}
-
-.cont_head {
-  background-color: orange;
-  padding: 5px 0;
-  text-align: center;
-}
-
-.cont_title {
-  text-align: center;
-}
-
-.question {
-  margin-left: 15px;
-  border: transparent;
-}
-
 input {
   outline: none;
-}
-
-.left {
-  text-align: right;
-  border: transparent;
-}
-
-.right {
-  text-align: left;
-  border: transparent;
 }
 
 img {
   height: auto;
   width: 100%;
+}
+
+
+.quest {
+  background-color: yellow;
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+.form_head {
+  background-color: orange;
+  text-align: center;
+  padding: 2px 0;
+  font-weight: 700;
+}
+
+.form_title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 10px 20px;
+}
+
+.label {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.submit {
+  margin-left: 35%;
 }
