@@ -1,0 +1,23 @@
+.box{
+    background-color: red;
+    width: 100px;
+    height: 300px;
+    color: white;
+
+}
+
+#two {
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.position {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+}

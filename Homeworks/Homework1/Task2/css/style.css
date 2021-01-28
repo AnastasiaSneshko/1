@@ -1,0 +1,23 @@
+* {
+    margin: 20px 0 0 10px;
+}
+
+.browser {
+    width: 400px;
+    height: 200px;
+    border: 4px solid black;
+    border-collapse: collapse;
+  }
+  
+  .browser_head {
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+  
+  }
+  
+  th, td {
+    text-align: left;
+    border: 1px solid gray;
+    padding-left: 5px;
+  }
